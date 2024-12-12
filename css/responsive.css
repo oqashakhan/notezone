@@ -72,6 +72,14 @@
     .hero-text {
         padding-bottom: 30px;
     }
+
+    .notes{
+        flex-direction: column;
+        padding: 50px 0px;
+    }
+    .n-card{
+        width: 90%;
+    }
 }
 
 @media (max-width:550px) {
@@ -92,5 +100,13 @@
     }
     .c-card{
       width: 80%;
+    }
+}
+
+
+@media (max-width:777px) {
+    .notes{
+        padding: 50px 20px;
+        column-gap: 20px;
     }
 }
