@@ -181,3 +181,98 @@ nav li:hover::after{
 }
 
 /* ------------------------------------ Hero end ------------------------------ */
+
+
+/* ------------------------------------ title  start ------------------------------ */
+
+.title{
+    width: 100%;
+    padding: 50px 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    flex-direction: column;
+}
+.title h1{
+    font-size: 35px;
+    color: #1e1e1e;
+    position: relative;
+}
+.title h1::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px ;
+    width: 150px;
+    border-radius: 12px;
+    background: #008374;
+}
+
+/* ------------------------------------ title end ------------------------------ */
+/* ------------------------------------ class startttttttttttttt ------------------------------ */
+.classes{
+    padding:70px  0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    flex-wrap: wrap;
+    height: auto;
+}
+.c-card{
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.281);
+    padding: 20px;
+    width: 250px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 0;
+     gap: 12px;
+     color: #1e1e1e;
+     margin-bottom: 40px;
+}
+.c-num{
+    width: 100%;
+   height: 50px; 
+   transform: translateY(-20px);
+}
+.c-num i{
+    padding: 15px 20px;
+    background-color: #008374;
+    border-radius: 50%;
+    font-size: 30px;
+    color: white;
+   
+   
+}
+
+.c-card h1{
+    font-size:xx-large;
+    text-transform: capitalize; 
+    line-height: 1;
+}
+
+.btn-dark{
+    padding: 6px 12px;
+    font-size: 16px;
+    background-color: #029483;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.308);
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn-dark:hover{
+    transform: scale(0.9);
+}
+
+/* ------------------------------------ class enddddddd ------------------------------ */
